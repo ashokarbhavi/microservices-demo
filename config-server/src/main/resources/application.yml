@@ -1,0 +1,7 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    ROOT: DEBUG
+    org.spring.framework.cloud.config: DEBUG
