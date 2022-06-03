@@ -8,11 +8,11 @@ spring:
           uri: https://github.com/ashokarbhavi/spring-cloud-config-server-repository
           default-label: main
           username: ashokarbhavi
-          password: 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
+          password: '{cipher}d77a0356610996675b34f85e3986a6909aa5b05daf2d8a7231a296e339e1aa08731316e17cea5e51ffb35d2672a5721375c0dca1638daef6f7d58a0eda35ce6d'
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: SpringCloud_Pwd!
+      password: '{cipher}ba65c9d88e59cea999a52f40d06c15cbf3c7a5d1ef1ef2ea81d52dfc2e4a9e93d76a2f7c5369a354efb42321e236c777'
       
