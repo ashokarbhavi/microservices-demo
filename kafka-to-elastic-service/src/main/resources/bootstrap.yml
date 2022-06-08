@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: kafka-to-elastic-service
+  profiles:
+    active: kafka_to_elastic
+  cloud:
+    config:
+      name: kafka-to-elastic-service,config-client
+      uri: http://localhost:8888
+      username: spring_cloud_user
+      password: '{cipher}ff45a6a0f2ec2d0682a8e31c12204c275d28a3ddea794ce896f0b8de3691026e8eb10d213742aaeaf92f60347ea2adea'
